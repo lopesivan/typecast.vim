@@ -26,7 +26,7 @@ nnoremap <silent> <Plug>typecast :<c-u>set opfunc=typecast#opfunc<cr>g@
 xnoremap <silent> <Plug>typecast :<c-u>call typecast#visual()<cr>
 
 " if !hasmapto('<Plug>typecast', 'n')
-"   nmap <s-t> <Plug>typecast
+"   nmap <leader>ct <Plug>typecast
 " endif
 if !hasmapto('<Plug>typecast', 'x')
   xmap <s-t> <Plug>typecast
